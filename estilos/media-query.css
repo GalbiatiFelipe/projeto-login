@@ -7,6 +7,7 @@
 
     section#login {
         width: 90vw;
+        height: 290px;
     }
 
     section#login div#imagem {
@@ -30,8 +31,14 @@
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
 
+    div#formulario p {
+        font-size: 1em;
+        margin: 20px 0px;
+    }
+
     section#login {
         width: 1000px;
+        height: 350px;
     }
 
     section#login div#imagem {
@@ -45,4 +52,9 @@
         width: 50%;
 
     }
+    .campo input {
+        width: calc(100% - 44.5px);
+        transform: translatey(-12px);
+    }
+
 }
